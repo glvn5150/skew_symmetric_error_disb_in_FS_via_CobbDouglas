@@ -28,7 +28,9 @@ where:
 - $A_i$: total assets  
 - $N_i$: number of employees  
 - $\beta_1, \beta_2$: output elasticities
+
 The formulation follows the classic Cobb-Douglas production function, only the assets and revenue as well as number of employees constitute capital, output, and labor $K, Y,L$ respectively
+
 ---
 
 ## 3. Skew-Symmetric Error Specification
