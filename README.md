@@ -27,8 +27,8 @@ where:
 - $R_i$: total revenue  
 - $A_i$: total assets  
 - $N_i$: number of employees  
-- $\beta_1, \beta_2$: output elasticities  
-
+- $\beta_1, \beta_2$: output elasticities
+The formulation follows the classic Cobb-Douglas production function, only the assets and revenue as well as number of employees constitute capital, output, and labor $K, Y,L$ respectively
 ---
 
 ## 3. Skew-Symmetric Error Specification
@@ -111,3 +111,5 @@ $$\text{MRTS}_{A,N} = \frac{\beta_1}{\beta_2} \cdot \frac{N}{A}$$
 - **Constant:** $\beta_1 + \beta_2 = 1$  
 - **Increasing:** $\beta_1 + \beta_2 > 1$  
 - **Decreasing:** $\beta_1 + \beta_2 < 1$
+
+The economic interpertation showed by the plot produces the classic Cobb-Douglas trade-off between Capital and Labor, via employee expenses 
