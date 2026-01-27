@@ -30,6 +30,7 @@ where:
 - $\beta_1, \beta_2$: output elasticities
 
 The formulation follows the classic Cobb-Douglas production function, only the assets and revenue as well as number of employees constitute capital, output, and labor $K, Y,L$ respectively
+![Image](https://github.com/glvn5150/skew_symmetric_error_disb_in_FS_via_CobbDouglas/blob/main/plot_images/Rplot.png)
 
 ---
 
@@ -48,10 +49,8 @@ where:
 - $\omega > 0$: scale  
 - $\alpha$: skewness parameter  
 - $\phi(\cdot)$: standard normal PDF  
-- $\Phi(\cdot)$: standard normal CDF  
-
-
-
+- $\Phi(\cdot)$: standard normal CDF
+- 
 ---
 
 ## 4. Log-Likelihood Function
@@ -76,7 +75,9 @@ with parameter vector:
 
 $$\theta = (\beta_0, \beta_1, \beta_2, \zeta, \omega, \alpha)$$
 
-This allows residuals to be **asymmetric around zero**, which is empirically relevant for firm data. The residuals here produce a unique log likelihood plot
+This allows residuals to be **asymmetric around zero**, which is empirically relevant for firm data. The residuals here produce a unique log likelihood plot, where the PMF moves away from the MLE, in which as the residuals get bigger, the mass gets smaller. 
+
+![Image](https://github.com/glvn5150/skew_symmetric_error_disb_in_FS_via_CobbDouglas/blob/main/plot_images/llplot.png)
 
 ---
 
@@ -114,4 +115,7 @@ $$\text{MRTS}_{A,N} = \frac{\beta_1}{\beta_2} \cdot \frac{N}{A}$$
 - **Increasing:** $\beta_1 + \beta_2 > 1$  
 - **Decreasing:** $\beta_1 + \beta_2 < 1$
 
-The economic interpertation showed by the plot produces the classic Cobb-Douglas trade-off between Capital and Labor, via employee expenses 
+The economic interpertation showed by the plot produces the classic Cobb-Douglas trade-off between Capital and Labor, via employee expenses. 
+
+![Image](https://github.com/glvn5150/skew_symmetric_error_disb_in_FS_via_CobbDouglas/blob/main/plot_images/MRTS.png)
+
